@@ -4,13 +4,16 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import userReducer from "./features/User"
+import userReducer from "./features/user";
+import themeReducer from "./features/user"
 
 const store = configureStore({
   reducer: {
     user: userReducer,
+    theme: themeReducer,
   },
 });
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store= {store}>

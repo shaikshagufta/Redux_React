@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { login, logout } from '../features/User';
+import { login, logout } from '../features/user';
 
 function Login() {
     const dispatch = useDispatch();
