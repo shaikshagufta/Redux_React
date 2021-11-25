@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import userReducer from "./features/user";
-import themeReducer from "./features/user"
+import userReducer from './features/user';
+import themeReducer from './features/theme'
 
 const store = configureStore({
   reducer: {
